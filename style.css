@@ -35,7 +35,7 @@ header {
     height: 88%;
     max-width: 1600px;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     justify-content: space-between;
     padding: 0 120px;
@@ -62,6 +62,66 @@ nav .menu a {
     text-decoration: none;
 }
 
-.btn-green{
+#banner{
+    height: 674px;
+    background: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.banner-content{
+    position: relative;
+    max-width: 800px;
+    color: #FFFFFF;
+}
+
+.hero-badge{
+    background: #FFFFFF;
+    color: #30b868;
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.banner-content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 span{
+    color: #30b868;
+}
+
+.banner-content p{
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-green{
+    background: #30b868;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 12px;
+    border-radius: 5px;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    border-radius: 5px;
+}
+
